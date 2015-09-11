@@ -22,5 +22,8 @@ module Evanclough
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    # configuration for paperclip to find imagemagick.
+    Paperclip.options[:command_path] = "/usr/local/bin/"
   end
 end
