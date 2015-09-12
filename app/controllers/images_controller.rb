@@ -54,8 +54,11 @@ class ImagesController < ApplicationController
   # DELETE /images/1
   # DELETE /images/1.json
   def destroy
+    # deletes attached image asset
     @image.asset = nil
     @image.save
+
+    # deletes image object
     @image.destroy
     respond_to do |format|
       format.html { redirect_to images_url, notice: 'Image was successfully destroyed.' }
