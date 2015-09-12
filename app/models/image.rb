@@ -18,8 +18,6 @@ class Image < ActiveRecord::Base
 
   after_post_process  :save_exif
 
-  # after_initialize :init
-
   # Uncomment below and corresponding private method to delete original file after upload. Will not delete parent directory to original image.
   # after_save :destroy_original
 
