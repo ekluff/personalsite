@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150912063340) do
+ActiveRecord::Schema.define(version: 20150912232851) do
 
   create_table "exifs", force: :cascade do |t|
     t.string   "camera"
@@ -23,7 +23,6 @@ ActiveRecord::Schema.define(version: 20150912063340) do
     t.string   "exposure_bias"
     t.boolean  "flash"
     t.string   "focal_length"
-    t.string   "lens"
     t.integer  "image_id"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
