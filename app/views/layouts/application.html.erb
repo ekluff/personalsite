@@ -19,12 +19,23 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-left">
-          <li><%= link_to "home", "/" %></li>
+          <li>
+            <%= link_to "home", "/" %>
+          </li>
+          <li>
+            <%= link_to "about", "/about" %>
+          </li>
         </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <!-- <li> <%= link_to "photo journals", images_path %> </li> -->
-          <li><a href="#">about</a></li>
-          <li><a href="#">contact</a></li>
+        <ul class="nav navbar-nav navbar-right list social-icons list-inline list-center">
+          <li class="icon">
+            <%= link_to image_tag("instagram.svg"), "https://instagram.com/ekluff" %>
+          </li>
+          <li class="icon">
+            <%= link_to image_tag("twitter.svg"), "https://twitter.com/ekluff" %>
+          </li>
+          <li class="icon">
+            <%= link_to image_tag("mail.svg"), "mailto:info@evanclough.com?Subject=Website%20inquiry" %>
+          </li>
         </ul>
       </div>
     </div>
