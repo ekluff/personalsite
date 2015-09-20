@@ -35,6 +35,9 @@ gem 'paperclip', '~> 4.3'
 # exifr to read exif data from uploaded images
 gem 'exifr', '~> 1.2'
 
+# font awesome social icons gem
+gem 'font-awesome-rails'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
