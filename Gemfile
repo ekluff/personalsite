@@ -35,9 +35,6 @@ gem 'paperclip', '~> 4.3'
 # exifr to read exif data from uploaded images
 gem 'exifr', '~> 1.2'
 
-# add photoswipe image gallery to asset pipeline
-gem 'photoswipe-rails'
-
 # font awesome social icons gem
 # gem 'font-awesome-rails'
 
