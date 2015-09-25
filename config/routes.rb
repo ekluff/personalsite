@@ -3,6 +3,10 @@ Rails.application.routes.draw do
   get 'pages/index'
 
   resources :images
+
+  # route for image gallery
+  get 'gallery' => 'images#gallery'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
