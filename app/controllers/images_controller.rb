@@ -7,6 +7,10 @@ class ImagesController < ApplicationController
     @images = Image.all
   end
 
+  def gallery
+    @images = Image.all
+  end
+
   # GET /images/1
   # GET /images/1.json
   def show
