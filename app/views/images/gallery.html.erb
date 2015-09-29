@@ -2,10 +2,12 @@
 
 <div class="row">
   <div class="slider">
-    <ul class="list list-unstyled list-inline img-list slider-list">
+    <!-- <ul class="img-list slider-list"> -->
       <% @images.each do |image| %>
-        <li class="img img-md img-slider"><%= link_to image_tag(image.asset.url(:medium)), image %></li>
+        <div class="img img-md img-slider">
+          <%= link_to image_tag(image.asset.url(:medium)), image %>
+        </div>
       <% end %>
-    </ul>
+    <!-- </ul> -->
   </div>
 </div>

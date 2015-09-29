@@ -20,3 +20,21 @@ body .fus-overlay#images {
   position: relative;
   z-index: 1000;
 }
+
+.slider {
+  white-space: nowrap;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.img-slider {
+  white-space: nowrap;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.img-slider img {
+  max-height: 100%;
+}
