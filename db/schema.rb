@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150912232851) do
+ActiveRecord::Schema.define(version: 20151008030639) do
 
   create_table "exifs", force: :cascade do |t|
     t.string   "camera"
@@ -37,6 +37,8 @@ ActiveRecord::Schema.define(version: 20150912232851) do
     t.string   "asset_content_type"
     t.integer  "asset_file_size"
     t.datetime "asset_updated_at"
+    t.string   "caption"
+    t.string   "title"
   end
 
 end

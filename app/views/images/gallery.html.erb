@@ -1,13 +1,15 @@
 <div class="fus-overlay" id="images"></div>
 
 <div class="row">
-  <div class="gallery">
+  <!-- <div class="slider"> -->
     <!-- <ul class="img-list slider-list"> -->
+    <div id="justified-gallery">
       <% @images.each do |image| %>
         <div class="img img-md img-slider">
-          <%= link_to image_tag(image.asset.url(:small)), image %>
+          <%= link_to image_tag(image.asset.url(:small), alt: image.asset), image %>
         </div>
       <% end %>
+    </div>
     <!-- </ul> -->
-  </div>
+  <!-- </div> -->
 </div>
