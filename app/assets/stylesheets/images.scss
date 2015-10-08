@@ -16,25 +16,29 @@ body .fus-overlay#images {
   transition:all .4s ease
 }
 
-.slider {
-  position: relative;
+#justified-gallery {
   z-index: 1000;
 }
 
-.slider {
-  white-space: nowrap;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-}
-
-.img-slider {
-  white-space: nowrap;
-  display: inline;
-  margin: 0;
-  padding: 0;
-}
-
-.img-slider img {
-  max-height: 100%;
-}
+// .slider {
+//   position: relative;
+//   z-index: 1000;
+// }
+//
+// .slider {
+//   white-space: nowrap;
+//   display: inline-block;
+//   margin: 0;
+//   padding: 0;
+// }
+//
+// .img-slider {
+//   white-space: nowrap;
+//   display: inline;
+//   margin: 0;
+//   padding: 0;
+// }
+//
+// .img-slider img {
+//   max-height: 100%;
+// }

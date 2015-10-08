@@ -5,9 +5,9 @@
     <!-- <ul class="img-list slider-list"> -->
     <div id="justified-gallery">
       <% @images.each do |image| %>
-        <div class="img img-md img-slider">
-          <%= link_to image_tag(image.asset.url(:small), alt: image.asset), image %>
-        </div>
+        <!-- <div class="img img-md img-slider"> -->
+          <%= link_to image_tag(image.asset.url(:small), alt: image.title), image %>
+        <!-- </div> -->
       <% end %>
     </div>
     <!-- </ul> -->
